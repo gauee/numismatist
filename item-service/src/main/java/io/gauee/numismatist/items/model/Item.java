@@ -13,6 +13,8 @@ public class Item {
     private String id;
     private String name;
     private ItemType type;
+    @OneToOne
+    private Alloy alloy;
     private int nominal;
     private int issueVolume;
     private Date issueDate;
